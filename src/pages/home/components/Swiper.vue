@@ -12,27 +12,15 @@
 <script>
 export default {
   name: 'HomeSwiper',
-  // props: {
-  //   list: Array
-  // },
+  props: {
+    list: Array
+  },
   data () {
     return {
       swiperOption: {
         pagination: '.swiper-pagination',
         loop: true
-      },
-      list: [{
-        id: '0001',
-        imgUrl: 'https://images3.c-ctrip.com/hotel/2018/05/byy_780_235.jpg'
-      }, {
-        id: '0002',
-        imgUrl: 'https://images3.c-ctrip.com/ad/bigbutton/promotion/201806/0605_sjb_780_235.jpg'
-      }, {
-        id: '0003',
-        imgUrl: 'https://images3.c-ctrip.com/ad/bigbutton/promotion/201806/0626_sxkh_780_235.jpg'
       }
-
-      ]
     }
   }
   // computed: {
